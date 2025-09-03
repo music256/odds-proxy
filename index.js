@@ -1,4 +1,4 @@
-//  /index.js
+// api/index.js
 export default async function handler(req, res) {
   const { pathname, searchParams } = new URL(req.url, `http://${req.headers.host}`);
   
